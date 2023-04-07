@@ -92,7 +92,8 @@ a:hover{
 .icons{
     width: auto;
     height: 40px;
-    margin-left: 52px;
+    position: relative;
+    margin-left: 15px;
     }
 .icons:hover{
     width: auto;
@@ -186,6 +187,7 @@ a:hover{
 .icons{
     width: auto;
     height: 40px;
+    margin-left: 15px;
  
     }
 .icons:hover{
