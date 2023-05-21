@@ -35,9 +35,9 @@
     </div>
     <div class="col-12 text-center div-btns">
       <ul>
-        <li><a href="#" class="btns">Fale Conosco</a></li>
+        <li><a href="#contactModal" class="btns" data-bs-toggle="modal" data-bs-target="#contactModal">Fale Conosco</a></li>
         <li><a href="#" class="btns">Confira Nossa Agenda</a></li>
-        <li><a href="#" class="btns">Youtube</a></li>
+        <li><a href="https://www.youtube.com/@MINISTERIORUAHAL" class="btns">Youtube</a></li>
       </ul>
 
 
@@ -53,15 +53,40 @@
       </div>
 
 
-        
-      
-       
-        
-
-
     </div>
 
 </main>
+
+
+<!-- Modal -->
+<div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
+  
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <form action="https://formsubmit.co/mruah6@gmail.com" method="POST">
+      <div class="modal-header">
+        <h5 class="modal-title" id="contactModalLabel">@Ruah </h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+            <input type="text" name="nome" placeholder="Nome" class="form-control mt-2">
+            <input type="text" name="sobrenome" placeholder="sobrenome" class="form-control mt-2">
+            <input type="tel" name="telefone" placeholder="Telefone / whats" class="form-control mt-2">
+            <input type="email" name="email" placeholder="email" class="form-control mt-2">
+            <textarea name="mensagem" placeholder="Sua mensagem aqui" class="form-control mt-2"></textarea>
+            <input type="hidden" name="_next" value="https://pablons2.github.io/ruah/">
+            
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">fechar</button>
+        <button type="submit" class="btn btn-success">Enviar</button>
+      </form>
+      </div>
+    </div>
+  </div>
+
+</div>
+  <script src="ruah/js/js.js"></script>
   <!-- Bootstrap JavaScript Libraries -->
   <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
     integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
@@ -70,6 +95,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
     integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
   </script>
+  
 </body>
 
 </html>
